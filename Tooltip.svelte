@@ -9,7 +9,7 @@
   type Offset = { top: number; left: number };
   import type { Position } from "./Tooltip";
 
-  import { debounce } from "lodash";
+  import { debounce } from "lodash-es";
 
   export let style: string | undefined = undefined;
   export let value: string | undefined = undefined;
