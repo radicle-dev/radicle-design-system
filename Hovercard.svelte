@@ -6,7 +6,7 @@
  LICENSE file.
 -->
 <script lang="ts">
-  import { debounce } from "lodash";
+  import { debounce } from "lodash-es";
 
   export let disabled: boolean = false;
   export let modalStyle: string | undefined = undefined;

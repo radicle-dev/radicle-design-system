@@ -13,6 +13,8 @@
     "url": "https://github.com/radicle-dev/radicle-design-system.git"
   },
   "dependencies": {
+    "@types/lodash-es": "^4.17.6",
+    "lodash-es": "^4.17.21",
     "marked": "^4.0.16",
     "radicle-avatar": "github:radicle-dev/radicle-avatar",
     "sanitize-html": "^2.7.0",
