@@ -1,3 +1,7 @@
+## Radicle Design System 🎨
+
+A showcase of the latest version is deployed [here][dp].
+
 ## Getting started
 
 Add this to your `package.json`:
@@ -152,6 +156,7 @@ The Radicle Design System uses:
 [bo]: https://github.com/brandonhaslegs
 [cs]: https://radicle.community/t/color-system/166
 [dc]: https://discord.com/channels/841318878125490186/841318878650302490
+[dp]: https://radicle-dev.github.io/radicle-design-system
 [ff]: https://www.figma.com/file/owmgsbs6lnUt8R1bixstCA/Radicle?node-id=0%3A1
 [jd]: https://github.com/juliendonck
 [ra]: https://rsms.me/inter
