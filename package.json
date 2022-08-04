@@ -16,7 +16,6 @@
     "@types/lodash-es": "^4.17.6",
     "lodash-es": "^4.17.21",
     "marked": "^4.0.16",
-    "radicle-avatar": "github:radicle-dev/radicle-avatar",
     "sanitize-html": "^2.7.0",
     "svelte": "^3.48.0",
     "twemoji": "14.0.2"
