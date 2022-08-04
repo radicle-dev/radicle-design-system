@@ -1,7 +1,7 @@
 <!--
- Copyright © 2021 The Radicle Upstream Contributors
+ Copyright © 2022 The Radicle Design System Contributors
 
- This file is part of radicle-upstream, distributed under the GPLv3
+ This file is part of radicle-design-system, distributed under the GPLv3
  with Radicle Linking Exception. For full terms see the included
  LICENSE file.
 -->
@@ -14,13 +14,8 @@
   export let size: EmojiSize = "regular";
   export let style: string | undefined = undefined;
 
-  // Set the static asset path prefix to be relative when running this in
-  // Upstream and absolute when its run in any other environment. This allows
-  // us to use this component in the workstreams web app.
-  const assetPathPrefix =
-    typeof window !== "undefined" && typeof window.electron === "object"
-      ? ""
-      : "/";
+  // Set this to an empty string if you need a relative asset path.
+  export let assetPathPrefix: string = "/";
 </script>
 
 <style>

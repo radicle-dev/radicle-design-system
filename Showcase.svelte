@@ -1,7 +1,7 @@
 <!--
- Copyright © 2021 The Radicle Upstream Contributors
+ Copyright © 2022 The Radicle Design System Contributors
 
- This file is part of radicle-upstream, distributed under the GPLv3
+ This file is part of radicle-design-system, distributed under the GPLv3
  with Radicle Linking Exception. For full terms see the included
  LICENSE file.
 -->
@@ -287,47 +287,47 @@
         title="Typography"
         subTitle="Using Inter and Source Code Pro fonts">
         <TypographySwatch title="<h1>">
-          <h1>Radicle Upstream</h1>
+          <h1>Radicle Design System</h1>
         </TypographySwatch>
 
         <TypographySwatch title="<h2>">
-          <h2>Radicle Upstream</h2>
+          <h2>Radicle Design System</h2>
         </TypographySwatch>
 
         <TypographySwatch title="<h3>">
-          <h3>Radicle Upstream</h3>
+          <h3>Radicle Design System</h3>
         </TypographySwatch>
 
         <TypographySwatch title={`<h3 class="typo-mono-bold">`}>
-          <h3 class="typo-mono-bold">Radicle Upstream</h3>
+          <h3 class="typo-mono-bold">Radicle Design System</h3>
         </TypographySwatch>
 
         <TypographySwatch title="<h4>">
-          <h4>Radicle Upstream</h4>
+          <h4>Radicle Design System</h4>
         </TypographySwatch>
 
         <TypographySwatch title={`<p> or <p class="typo-text">`}>
-          <p>Radicle Upstream</p>
+          <p>Radicle Design System</p>
         </TypographySwatch>
 
         <TypographySwatch title={`<p class="typo-text-bold">`}>
-          <p class="typo-text-bold">Radicle Upstream</p>
+          <p class="typo-text-bold">Radicle Design System</p>
         </TypographySwatch>
 
         <TypographySwatch title={`<p class="typo-text-mono">`}>
-          <p class="typo-text-mono">Radicle Upstream</p>
+          <p class="typo-text-mono">Radicle Design System</p>
         </TypographySwatch>
 
         <TypographySwatch title={`<p class="typo-mono-bold">`}>
-          <p class="typo-mono-bold">Radicle Upstream</p>
+          <p class="typo-mono-bold">Radicle Design System</p>
         </TypographySwatch>
 
         <TypographySwatch title={`<p class="typo-text-small">`}>
-          <p class="typo-text-small">Radicle Upstream</p>
+          <p class="typo-text-small">Radicle Design System</p>
         </TypographySwatch>
 
         <TypographySwatch title={`<p class="typo-text-small-bold">`}>
-          <p class="typo-text-small-bold">Radicle Upstream</p>
+          <p class="typo-text-small-bold">Radicle Design System</p>
         </TypographySwatch>
 
         <TypographySwatch title={`<p class="typo-text-small-bold">`}>
@@ -344,7 +344,7 @@
         </TypographySwatch>
 
         <TypographySwatch title={`<p class="typo-all-caps">`}>
-          <p class="typo-all-caps">Radicle Upstream</p>
+          <p class="typo-all-caps">Radicle Design System</p>
         </TypographySwatch>
 
         <TypographySwatch title={`<p class="typo-enable-calt">`}>
@@ -755,7 +755,7 @@
 
       <Section
         title="Identifier links"
-        subTitle="Various Radicle and Ethereum identifiers that link within Upstream or to external resources">
+        subTitle="Various Radicle and Ethereum identifiers">
         <div class="swatch">
           <IdentifierLink
             params={{

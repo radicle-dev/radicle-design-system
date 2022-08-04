@@ -152,7 +152,7 @@ The Radicle Design System uses:
 [bo]: https://github.com/brandonhaslegs
 [cs]: https://radicle.community/t/color-system/166
 [dc]: https://discord.com/channels/841318878125490186/841318878650302490
-[ff]: https://www.figma.com/file/owmgsbs6lnUt8R1bixstCA/Radicle-Upstream?node-id=4147%3A7246
+[ff]: https://www.figma.com/file/owmgsbs6lnUt8R1bixstCA/Radicle?node-id=0%3A1
 [jd]: https://github.com/juliendonck
 [ra]: https://rsms.me/inter
 [so]: https://adobe-fonts.github.io/source-code-pro
