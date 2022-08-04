@@ -11,7 +11,6 @@ source ci/env.sh
 log-group-start "yarn install"
 # Unsetting GITHUB_ACTIONS because yarn tries to add log groups in a buggy way.
 env -u GITHUB_ACTIONS yarn install --immutable
-env -u GITHUB_ACTIONS yarn dedupe --check
 log-group-end
 
 log-group-start "Installing assets"
