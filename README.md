@@ -1,14 +1,10 @@
 ## Getting started
 
-To import this [design system][ds] into your project, **you'll have to use Yarn
-2**, because it allows importing packages from github repository subdirectories
-via Yarn workspaces.
-
 Add this to your `package.json`:
 ```
 {
   "dependencies": {
-    "radicle-design-system": "radicle-dev/radicle-upstream#workspace=radicle-design-system",
+    "radicle-design-system": "https://github.com/radicle-dev/radicle-design-system",
   },
   "scripts": {
     "postinstall": "scripts/install-twemoji-assets.sh && scripts/install-design-system-static-assets.sh"
@@ -16,8 +12,8 @@ Add this to your `package.json`:
 }
 ```
 
-Next, set yarn to use the `node-modules` linker to ensure that assets are
-stored in your project's `node_modules` by running:
+If you're using yarn v2, configure yarn to use the `node-modules` linker to
+ensure that assets are stored in your project's `node_modules` by running:
 
 ```
 yarn config set nodeLinker node-modules
@@ -96,7 +92,7 @@ changed by adding a `data-theme` attribute to your html document:
 ```
 
 Currently the design system supports the `light`, `dark` and `h4x0r` themes.
-Read more about the colors used in Upstream in the [color system][cs] post.
+Read more about the colors [here][cs].
 
 
 ## Typography
@@ -132,20 +128,14 @@ in open source development, but we do it for design too!
 
   - Start by joining our [Discord server][dc] to chat with anyone on the core
     team and ask any questions you have. It’s all public and open for anyone to
-    join and chat. We even have our “internal” chats in public where we chat
-    regularly about features. The [#upstream][dc] channel is an example of
-    that.
+    join and chat. We even have our "internal" chats in public where we chat
+    regularly about features.
 
-  - There are also a lot of issues on our GitHub marked as [`design needed`][dn]
-    which are open for anyone to grab and submit a solution for. Some are
-    easier than others. Feel free to read through those and ask any questions
-    directly on the GitHub issue.
-
-  - You can also reach out directly on Discord with any questions. If you need
-    any help getting set up with our [Figma file][ff] just ask one of the core
-    designers on the team ([@brandonhaslegs][bo] and [@juliendonck][jd]).
-    You’ll need to duplicate the file and make changes in your own private
-    file. If we accept them, we’ll integrate them into the official file.
+  - If you need any help getting set up with our [Figma file][ff] just ask one
+    of the core designers on the team [@brandonhaslegs][bo] or
+    [@juliendonck][jd]. You’ll need to duplicate the file and make changes in
+    your own private file. If we accept them, we’ll integrate them into the
+    official file.
 
   - Please submit design solutions on GitHub. Just post screenshots, videos, or
     Figma prototype links of your solution and a description on the issue.
@@ -161,9 +151,7 @@ The Radicle Design System uses:
 
 [bo]: https://github.com/brandonhaslegs
 [cs]: https://radicle.community/t/color-system/166
-[dc]: https://discord.com/channels/841318878125490186/843873418205331506
-[dn]: https://github.com/radicle-dev/radicle-upstream/issues?q=is%3Aopen+is%3Aissu+label%3Adesign-needed
-[ds]: https://radicle-dev.github.io/radicle-upstream
+[dc]: https://discord.com/channels/841318878125490186/841318878650302490
 [ff]: https://www.figma.com/file/owmgsbs6lnUt8R1bixstCA/Radicle-Upstream?node-id=4147%3A7246
 [jd]: https://github.com/juliendonck
 [ra]: https://rsms.me/inter
