@@ -9,13 +9,11 @@
   type EmojiSize = "small" | "regular" | "large" | "huge";
 
   import twemoji from "twemoji";
+  import { config } from "./lib/config";
 
   export let emoji: string;
   export let size: EmojiSize = "regular";
   export let style: string | undefined = undefined;
-
-  // Set this to an empty string if you need a relative asset path.
-  export let assetPathPrefix: string = "/";
 </script>
 
 <style>
@@ -49,7 +47,7 @@
 <div {style} class="container">
   {@html twemoji.parse(emoji, {
     className: `emoji ${size}`,
-    base: assetPathPrefix,
+    base: $config.assetPathPrefix,
     folder: "twemoji",
     ext: ".svg",
   })}
