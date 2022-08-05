@@ -17,7 +17,7 @@ fi
 
 version="$(node -e 'console.log(require("twemoji/package.json").version)')"
 
-echo "Installing Twemoji v${version} SVG assets into $1/twemoji"
+echo "Installing Twemoji v${version} SVG assets into $1"
 
 mkdir -p $1
 curl -sSL "https://github.com/twitter/twemoji/archive/refs/tags/v${version}.tar.gz" \
