@@ -18,6 +18,7 @@
   import Button from "./Button.svelte";
   import Checkbox from "./Checkbox.svelte";
   import Dropdown from "./Dropdown.svelte";
+  import Emoji from "./Emoji.svelte";
   import IdentifierLink from "./IdentifierLink.svelte";
   import LoadingAnimation from "./LoadingAnimation.svelte";
   import SegmentedControl from "./SegmentedControl.svelte";
@@ -242,6 +243,27 @@
     margin-bottom: 32px;
     align-items: flex-end;
   }
+
+  .sidebar {
+    width: var(--sidebar-width);
+    height: 100%;
+    background-color: var(--color-foreground-level-2);
+    position: fixed;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.5rem;
+    padding-top: 3rem;
+    padding-left: 2rem;
+  }
+
+  .sidebar a {
+    display: inline-flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+  }
 </style>
 
 <svelte:window on:keydown={onKeydown} />
@@ -256,12 +278,27 @@
 
 <div class="fullscreen">
   <div class="content">
+    <div class="sidebar">
+      <a href="#colors">
+        <Emoji emoji="🎨" size="large" />
+        <h3>Colors</h3></a>
+      <a href="#elevations">
+        <Emoji emoji="🏔️" size="large" />
+        <h3>Elevations</h3></a>
+      <a href="#typography">
+        <Emoji emoji="🔤" size="large" />
+        <h3>Typography</h3></a>
+      <a href="#icons">
+        <Emoji emoji="🖼️" size="large" />
+        <h3>Icons</h3></a>
+      <a href="#components">
+        <Emoji emoji="🫐" size="large" />
+        <h3>Components</h3></a>
+    </div>
     <div class="layout">
       <slot name="top" />
 
-      <h1 style="margin-bottom: 92px">Primitives</h1>
-
-      <Section title="Colors" subTitle="Primary and grays">
+      <Section title="Colors">
         {#each colorGroups as colorGroup}
           <div>
             {#each colors.filter(color => {
@@ -273,18 +310,13 @@
         {/each}
       </Section>
 
-      <Section
-        title="Elevations"
-        subTitle="Three levels of elevation"
-        contentStyle="display: flex; gap: 3rem;">
+      <Section title="Elevations" contentStyle="display: flex; gap: 3rem;">
         {#each elevations as elevation}
           <ElevationSwatch {elevation} />
         {/each}
       </Section>
 
-      <Section
-        title="Typography"
-        subTitle="Using Inter and Source Code Pro fonts">
+      <Section title="Typography">
         <TypographySwatch title="<h1>">
           <h1>Radicle Design System</h1>
         </TypographySwatch>
@@ -351,7 +383,7 @@
         </TypographySwatch>
       </Section>
 
-      <Section title="Icons" subTitle="24px icons">
+      <Section title="Icons">
         <div
           style="display: grid; gap: 1.5rem; grid-template-columns: repeat(10, 1.5rem); grid-auto-rows: 1.5rem;">
           {#await importIconComponents(icons) then icons}
@@ -364,9 +396,7 @@
         </div>
       </Section>
 
-      <Section
-        title="Buttons"
-        subTitle="Vanilla, Primary, Cancel, disabled state">
+      <Section title="Components">
         <table>
           <thead>
             <tr>
@@ -465,11 +495,7 @@
             </td>
           </tr>
         </table>
-      </Section>
 
-      <Section
-        title="Form elements"
-        subTitle="Inputs, text areas, dropdowns, etc.">
         <div class="swatch">
           <TextInput placeholder="Hey, I'm an input." style="width: auto;" />
         </div>
@@ -578,11 +604,7 @@
             placeholder="Select option..."
             disabled={true} />
         </div>
-      </Section>
 
-      <h1 style="margin-bottom: 92px">Components</h1>
-
-      <Section title="Tooltips" subTitle="Top, Right, Bottom, Left">
         <div class="swatch">
           <Tooltip value="Top" position="top">
             <Button variant="outline">Hover me!</Button>
@@ -606,11 +628,7 @@
             <Button variant="outline">Hover me!</Button>
           </Tooltip>
         </div>
-      </Section>
 
-      <Section
-        title="Identifier links"
-        subTitle="Various Radicle and Ethereum identifiers">
         <div class="swatch">
           <IdentifierLink
             params={{
@@ -627,9 +645,7 @@
               onClick: () => {},
             }} />
         </div>
-      </Section>
 
-      <Section title="Misc" subTitle="Everything else">
         <div class="swatch">
           <ThreeDotsMenu
             style="margin-right: 1rem;"

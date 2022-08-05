@@ -7,36 +7,30 @@
 -->
 <script lang="ts">
   export let title: string;
-  export let subTitle: string;
   export let contentStyle: string | undefined = undefined;
 </script>
 
 <style>
   .section {
-    margin-bottom: 180px;
-    display: grid;
-    grid-template-columns: 342px auto 100px;
+    padding-bottom: 180px;
+    padding-left: calc(var(--sidebar-width) + 2rem);
+    padding-right: 2rem;
   }
 
-  .titles {
-    grid-column-start: 1;
-    margin-right: 90px;
+  h1 {
+    margin-bottom: 3rem;
   }
 
-  h2 {
-    margin-bottom: 8px;
-  }
-
-  p {
-    color: var(--color-foreground-level-5);
+  .anchor {
+    visibility: hidden;
+    position: relative;
+    top: -3rem;
   }
 </style>
 
 <div class="section">
-  <div class="titles">
-    <h2>{title}</h2>
-    <p>{subTitle}</p>
-  </div>
+  <div class="anchor" id={title.toLowerCase()} />
+  <h1>{title}</h1>
   <div class="content" style={contentStyle}>
     <slot />
   </div>
