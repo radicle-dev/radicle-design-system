@@ -1,6 +1,6 @@
-// Copyright © 2021 The Radicle Upstream Contributors
+// Copyright © 2022 The Radicle Design System Contributors
 //
-// This file is part of radicle-upstream, distributed under the GPLv3
+// This file is part of radicle-design-system, distributed under the GPLv3
 // with Radicle Linking Exception. For full terms see the included
 // LICENSE file.
 
@@ -114,7 +114,7 @@ const allowedLicenses = [
   "WTFPL",
   // http://www.gnu.org/licenses/license-list.html#ZLib
   // "Zlib",
-].map((x) => spdxExpressionParse(x));
+].map(x => spdxExpressionParse(x));
 
 function licensePlugin(): WebpackPluginInstance {
   const plugin = new LicenseWebpackPlugin({
@@ -140,7 +140,7 @@ function licensePlugin(): WebpackPluginInstance {
       // properly. https://github.com/twitter/twemoji/pull/499
       twemoji: "MIT AND CC-BY-4.0",
     },
-    unacceptableLicenseTest: (licenseName) => {
+    unacceptableLicenseTest: licenseName => {
       if (licenseName) {
         return !spdxWhitelisted(
           spdxExpressionParse(licenseName),
@@ -150,7 +150,7 @@ function licensePlugin(): WebpackPluginInstance {
         return true;
       }
     },
-    excludedPackageTest: (packageName) => {
+    excludedPackageTest: packageName => {
       // These packages have fake `package.json` files in
       // subdirectories. We don’t want to pick those up.
       return (

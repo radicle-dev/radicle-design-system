@@ -1,8 +1,5 @@
 {
-  "include": [
-    "webpack.config.ts",
-    "*.ts"
-  ],
+  "include": ["webpack.config.ts", "**/*.ts"],
   "exclude": ["node_modules/*"],
   "compilerOptions": {
     /* Specify ECMAScript target version: 'ES3' (default), 'ES5', 'ES2015', 'ES2016', 'ES2017','ES2018' or 'ESNEXT'. */
