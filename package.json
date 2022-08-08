@@ -15,7 +15,7 @@
   "scripts": {
     "start": "webpack serve --open --config-name design-system",
     "lint": "eslint . --ignore-path .gitignore --ext .js,.svelte,.ts --max-warnings=0",
-    "postinstall": "husky install"
+    "prepare": "husky install"
   },
   "dependencies": {
     "@types/lodash-es": "^4.17.6",
