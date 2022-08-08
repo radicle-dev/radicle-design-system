@@ -36,6 +36,7 @@
     "*.otf"
   ],
   "devDependencies": {
+    "@types/node": "^18.6.4",
     "@types/yargs": "^17.0.11",
     "@typescript-eslint/eslint-plugin": "^5.32.0",
     "@typescript-eslint/parser": "^5.32.0",
