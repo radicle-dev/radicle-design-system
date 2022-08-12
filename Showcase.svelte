@@ -12,8 +12,16 @@
   import CheckIcon from "./icons/Check.svelte";
   import CrossIcon from "./icons/Cross.svelte";
   import ForkIcon from "./icons/Fork.svelte";
+  import LockIcon from "./icons/Lock.svelte";
   import MinusIcon from "./icons/Minus.svelte";
   import PlusIcon from "./icons/Plus.svelte";
+
+  import Theme from "./Theme.svelte";
+
+  import ThemeSetting from "./Showcase/ThemeSetting.svelte";
+  import PrimaryColorSetting from "./Showcase/PrimaryColorSetting.svelte";
+  import CodeFontSetting from "./Showcase/CodeFontSetting.svelte";
+  import UiFontSetting from "./Showcase/UiFontSetting.svelte";
 
   import Button from "./Button.svelte";
   import Checkbox from "./Checkbox.svelte";
@@ -200,6 +208,8 @@
       onClose();
     }
   }
+
+  let settingsHeaderPinned: boolean = false;
 </script>
 
 <style>
@@ -264,7 +274,21 @@
     justify-content: center;
     align-items: center;
   }
+
+  .settings {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    background-color: var(--color-foreground-level-1);
+    flex: 1;
+    height: 5rem;
+    padding-left: calc(var(--sidebar-width) + 2rem);
+    width: 100%;
+    z-index: 5;
+  }
 </style>
+
+<Theme />
 
 <svelte:window on:keydown={onKeydown} />
 
@@ -295,6 +319,24 @@
         <Emoji emoji="🫐" size="large" />
         <h3>Components</h3></a>
     </div>
+
+    <div
+      class="settings"
+      style:position={settingsHeaderPinned ? "fixed" : "relative"}>
+      <UiFontSetting />
+      <CodeFontSetting />
+      <ThemeSetting />
+      <PrimaryColorSetting />
+
+      <span style="margin-left: auto; margin-right: 3.5rem;">
+        <LockIcon
+          on:click={() => (settingsHeaderPinned = !settingsHeaderPinned)}
+          style={settingsHeaderPinned
+            ? "fill: var(--color-foreground)"
+            : "fill: var(--color-foreground-level-4)"} />
+      </span>
+    </div>
+
     <div class="layout">
       <slot name="top" />
 
