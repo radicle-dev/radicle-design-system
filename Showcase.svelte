@@ -303,19 +303,19 @@
 <div class="fullscreen">
   <div class="content">
     <div class="sidebar">
-      <a href="#colors">
+      <a href="#colors" class="button-transition">
         <Emoji emoji="🎨" size="large" />
         <h3>Colors</h3></a>
-      <a href="#elevations">
+      <a href="#elevations" class="button-transition">
         <Emoji emoji="🏔️" size="large" />
         <h3>Elevations</h3></a>
-      <a href="#typography">
+      <a href="#typography" class="button-transition">
         <Emoji emoji="🔤" size="large" />
         <h3>Typography</h3></a>
-      <a href="#icons">
+      <a href="#icons" class="button-transition">
         <Emoji emoji="🖼️" size="large" />
         <h3>Icons</h3></a>
-      <a href="#components">
+      <a href="#components" class="button-transition">
         <Emoji emoji="🫐" size="large" />
         <h3>Components</h3></a>
     </div>
