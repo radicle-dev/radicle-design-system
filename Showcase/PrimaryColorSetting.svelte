@@ -42,7 +42,6 @@
   {#if $primaryColor === "custom"}
     <input
       in:fly|local={{ x: 30, duration: 100, easing: backOut }}
-      out:fly|local={{ x: 30, duration: 100 }}
       type="color"
       bind:value={$primaryColorHex} />
   {/if}
