@@ -191,10 +191,13 @@
 
   async function importIconComponents(
     iconNames: string[]
-  ): Promise<SvelteComponent[]> {
+  ): Promise<{ component: SvelteComponent; name: string }[]> {
     return await Promise.all(
       iconNames.map(async iconName => {
-        return (await import(`./icons/${iconName}.svelte`)).default;
+        return {
+          component: (await import(`./icons/${iconName}.svelte`)).default,
+          name: iconName,
+        };
       })
     );
   }
@@ -430,8 +433,8 @@
           style="display: grid; gap: 1.5rem; grid-template-columns: repeat(10, 1.5rem); grid-auto-rows: 1.5rem;">
           {#await importIconComponents(icons) then icons}
             {#each icons as icon}
-              <Tooltip value={`${icon["name"]}.svelte`} position="top">
-                <svelte:component this={icon} />
+              <Tooltip value={`${icon.name}.svelte`} position="top">
+                <svelte:component this={icon.component} />
               </Tooltip>
             {/each}
           {/await}
