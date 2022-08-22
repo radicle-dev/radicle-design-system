@@ -6,12 +6,10 @@
  LICENSE file.
 -->
 <script lang="ts">
-  export let dataCy: string | undefined = undefined;
   export let style: string | undefined = undefined;
 </script>
 
 <svg
-  data-cy={dataCy}
   on:click
   style={`flex-shrink: 0; ${style ? style : ""}`}
   width="24"

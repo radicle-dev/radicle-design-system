@@ -13,7 +13,6 @@
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   export let items: any[];
 
-  export let dataCy: string | undefined = undefined;
   export let style: string | undefined = undefined;
   export let styleHoverState: boolean = true;
   export let key: string | undefined = undefined;
@@ -64,7 +63,7 @@
 
 <div class="list-container" {style}>
   {#if items.length > 0}
-    <ul data-cy={dataCy}>
+    <ul>
       {#each items as item, index (key ? item[key] : index)}
         <li
           class:hover={styleHoverState}

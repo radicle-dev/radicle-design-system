@@ -21,7 +21,7 @@
   export let transition: boolean = true;
   export let icon: typeof SvelteComponent | undefined = undefined;
   export let style: string | undefined = undefined;
-  export let dataCy: string | undefined = undefined;
+
   export let title: string | undefined = undefined;
   export let ariaLabel: string | undefined = undefined;
 
@@ -261,7 +261,6 @@
 </style>
 
 <button
-  data-cy={dataCy}
   aria-label={ariaLabel}
   class="button typo-text-bold {buttonClass}"
   {title}

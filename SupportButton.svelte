@@ -7,7 +7,6 @@
 -->
 <script lang="ts">
   export let style: string | undefined = undefined;
-  export let dataCy: string | undefined = undefined;
 </script>
 
 <style>
@@ -82,6 +81,6 @@
   }
 </style>
 
-<button data-cy={dataCy} class="support" on:click {style}>
+<button class="support" on:click {style}>
   <p class="typo-text-bold">Support</p>
 </button>

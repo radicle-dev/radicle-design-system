@@ -10,7 +10,6 @@
 
   export let active: boolean = false;
   export let title: string | undefined = undefined;
-  export let dataCy: string | undefined = undefined;
 </script>
 
 <style>
@@ -45,11 +44,7 @@
   }
 </style>
 
-<div
-  class="option"
-  class:button-transition={!active}
-  class:active
-  data-cy={dataCy}>
+<div class="option" class:button-transition={!active} class:active>
   <div class="header" on:click>
     {#if title}
       <p class="typo-text-bold" style="color: var(--color-foreground-level-6)">

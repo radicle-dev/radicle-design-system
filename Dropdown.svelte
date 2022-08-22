@@ -16,7 +16,6 @@
 
   export let placeholder = "";
 
-  export let dataCy: string | undefined = undefined;
   export let style: string | undefined = undefined;
   export let optionStyle: string | undefined = undefined;
   export let menuStyle: string | undefined = undefined;
@@ -119,7 +118,7 @@
 </style>
 
 <Overlay {expanded} on:hide={hideMenu}>
-  <div data-cy={dataCy} class="dropdown" {style}>
+  <div class="dropdown" {style}>
     <div
       class="button button-transition"
       class:invalid={!valid}

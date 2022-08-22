@@ -8,11 +8,10 @@
 <script lang="ts">
   import IconWrapper from "./IconWrapper.svelte";
 
-  export let dataCy: string | undefined = undefined;
   export let style: string | undefined = undefined;
 </script>
 
-<IconWrapper on:click {dataCy} {style}>
+<IconWrapper on:click {style}>
   <path
     d="M7 4C3.67985 4 2 6.99299 2 10C2 13.9227 4.7619 18.7818 10.1286
     20.9285C10.6414 21.1336 11.2234 20.8842 11.4285 20.3714C11.6336 19.8586

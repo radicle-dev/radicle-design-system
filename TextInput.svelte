@@ -26,7 +26,6 @@
   export let readonly: boolean = false;
   export let showSuccessCheck: boolean = false;
 
-  export let dataCy: string | undefined = undefined;
   export let inputStyle: string | undefined = undefined;
   export let style: string | undefined = undefined;
 
@@ -151,7 +150,6 @@
     class:invalid={validationState.type === "invalid"}
     class:concealed={variant.type === "password"}
     min={variant.type === "number" ? variant.min : undefined}
-    data-cy={dataCy}
     {placeholder}
     {disabled}
     {readonly}
@@ -181,7 +179,6 @@
       <CheckCircleIcon style="fill: var(--color-positive); margin: 0 0.5rem;" />
     {:else if validationState.type === "invalid"}
       <ExclamationCircleIcon
-        dataCy="validation-error-icon"
         style="fill: var(--color-negative); margin: 0 0.5rem;" />
     {/if}
   </div>

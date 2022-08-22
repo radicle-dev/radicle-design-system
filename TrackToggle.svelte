@@ -49,7 +49,6 @@
 </script>
 
 <Button
-  dataCy="track-toggle"
   {disabled}
   {style}
   {variant}

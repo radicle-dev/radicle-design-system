@@ -11,7 +11,6 @@
     icon: typeof SvelteComponent;
     event: () => void;
     tooltip?: string;
-    dataCy?: string;
     disabled?: boolean;
   }
 </script>
@@ -25,7 +24,6 @@
   import Tooltip from "./Tooltip.svelte";
 
   export let menuItems: MenuItem[];
-  export let dataCy: string | undefined = undefined;
   export let style: string | undefined = undefined;
 
   let expanded = false;
@@ -101,7 +99,7 @@
   on:hide={() => {
     expanded = false;
   }}>
-  <div data-cy={dataCy} class="container" {style}>
+  <div class="container" {style}>
     <button
       class="button-transition"
       on:click|stopPropagation={() => {
@@ -110,14 +108,10 @@
       <EllipsisIcon />
     </button>
     {#if expanded && menuItems.length > 0}
-      <div
-        out:fade|local={{ duration: 100 }}
-        class="modal"
-        data-cy="dropdown-menu">
+      <div out:fade|local={{ duration: 100 }} class="modal">
         {#each menuItems as item}
           <Tooltip value={item.tooltip} position="left">
             <div
-              data-cy={item.dataCy}
               class="item"
               class:disabled={item.disabled}
               on:click={!item.disabled

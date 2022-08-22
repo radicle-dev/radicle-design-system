@@ -6,13 +6,11 @@
  LICENSE file.
 -->
 <script lang="ts">
-  export let dataCy: string | undefined = undefined;
   export let style: string | undefined = undefined;
 </script>
 
 <svg
   xmlns="http://www.w3.org/2000/svg"
-  data-cy={dataCy}
   style={`flex-shrink: 0; ${style ? style : ""}`}
   fill="var(--color-foreground-level-5)"
   width="24"

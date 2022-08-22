@@ -6,7 +6,6 @@
  LICENSE file.
 -->
 <script lang="ts">
-  export let dataCy: string | undefined = undefined;
   export let height: number = 24;
   export let style: string | undefined = undefined;
   export let width: number = 24;
@@ -28,7 +27,6 @@
 
 <!-- FYI: We're not using the <IconWrapper /> component here because it would be too complicated to animate the svg with it.  -->
 <svg
-  data-cy={dataCy}
   on:click
   style={`flex-shrink: 0; ${style}`}
   {width}

@@ -80,7 +80,6 @@
         class:hover
         class="typo-semi-bold button-transition"
         class:active={option.value === currentlyActive}
-        data-cy="segmented-control-option"
         value={option.value}
         style:padding={option.icon ? "0 0.75rem 0 0.5rem" : "0 0.75rem"}
         on:click={() => onClick(option)}>

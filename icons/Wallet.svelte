@@ -8,13 +8,12 @@
 <script lang="ts">
   import IconWrapper from "./IconWrapper.svelte";
 
-  export let dataCy: string | undefined = undefined;
   export let style: string | undefined = undefined;
   export let statusColor: string | undefined = undefined;
   export let connected = false;
 </script>
 
-<IconWrapper on:click {dataCy} {style}>
+<IconWrapper on:click {style}>
   {#if connected}
     {#if statusColor}
       <circle cx="20" cy="5" r="3" fill={statusColor} />
