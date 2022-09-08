@@ -8,3 +8,4 @@ node_modules
 !.yarn/versions
 !.yarn/vendor
 .pnp.*
+.gitsigners
