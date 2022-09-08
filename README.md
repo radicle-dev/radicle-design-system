@@ -1,6 +1,7 @@
 ## Radicle Design System 🎨
 
 A showcase of the latest version is deployed [here][dp].
+Also [hosted on Radicle][hr].
 
 ## Getting started
 
@@ -158,6 +159,7 @@ The Radicle Design System uses:
 [dc]: https://discord.com/channels/841318878125490186/841318878650302490
 [dp]: https://radicle-dev.github.io/radicle-design-system
 [ff]: https://www.figma.com/file/owmgsbs6lnUt8R1bixstCA/Radicle?node-id=0%3A1
+[hr]: https://app.radicle.network/seeds/maple.radicle.garden/rad:git:hnrkm5drkd7huqxhbtbqwsun81ciomo536kgo
 [jd]: https://github.com/juliendonck
 [ra]: https://rsms.me/inter
 [so]: https://adobe-fonts.github.io/source-code-pro
