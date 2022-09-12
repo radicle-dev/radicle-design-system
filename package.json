@@ -29,11 +29,11 @@
   "files": [
     "!node_modules/*",
     "!build/*",
-    "*.svelte",
-    "*.ts",
-    "*.css",
-    "*.html",
-    "*.otf"
+    "**/*.svelte",
+    "**/*.ts",
+    "**/*.css",
+    "**/*.html",
+    "**/*.otf"
   ],
   "devDependencies": {
     "@types/node": "^18.6.4",
