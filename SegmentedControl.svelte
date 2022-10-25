@@ -17,8 +17,8 @@
 <script lang="ts">
   import { createEventDispatcher, SvelteComponent } from "svelte";
 
-  import Counter from "design-system/Counter.svelte";
-  import Hoverable from "design-system/Hoverable.svelte";
+  import Counter from "./Counter.svelte";
+  import Hoverable from "./Hoverable.svelte";
 
   export let style: string | undefined = undefined;
 
