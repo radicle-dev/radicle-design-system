@@ -6,9 +6,25 @@
  * LICENSE file.
  */
 :root {
-  --elevation-low: 0px 0px 0px 1px var(--color-foreground);
+  --elevation-low: 0px 0px 0px 1px #28333d;
 
-  --elevation-medium: 0px 0px 0px 1px var(--color-foreground), 0 4px 0px 1px var(--color-foreground);
+  --elevation-medium: 0px 0px 0px 1px #28333d, 0 4px 0px 1px #28333d;
 
-  --elevation-high: 0px 0px 0px 1px var(--color-foreground), 0 8px 0px 1px var(--color-foreground);
+  --elevation-high: 0px 0px 0px 1px #28333d, 0 8px 0px 1px #28333d;
+}
+
+[data-theme="dark"] {
+  --elevation-low: 0px 0px 0px 1px #ffffff;
+
+  --elevation-medium: 0px 0px 0px 1px #ffffff, 0 4px 0px 1px #ffffff;
+
+  --elevation-high: 0px 0px 0px 1px #ffffff, 0 8px 0px 1px #ffffff;
+}
+
+[data-theme="h4x0r"] {
+  --elevation-low: 0px 0px 0px 1px #15ff00;
+
+  --elevation-medium: 0px 0px 0px 1px #15ff00, 0 4px 0px 1px #15ff00;
+
+  --elevation-high: 0px 0px 0px 1px #15ff00, 0 8px 0px 1px #15ff00;
 }
