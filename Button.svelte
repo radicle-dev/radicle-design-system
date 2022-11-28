@@ -37,7 +37,7 @@
   .button {
     white-space: nowrap;
     background-color: var(--color-foreground-level-2);
-    border-radius: 0.5rem;
+    border-radius: 2rem 0 2rem 2rem;
     border: 1px solid var(--color-foreground-level-2);
     color: var(--color-foreground-level-6);
     cursor: pointer;
@@ -169,7 +169,7 @@
 
   .outline:hover {
     background-color: var(--color-foreground-level-1);
-    border: 1px solid var(--color-foreground-level-3);
+    border: 1px solid var(--color-foreground);
     color: var(--color-foreground-level-6);
   }
 

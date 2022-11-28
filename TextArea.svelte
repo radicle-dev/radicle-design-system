@@ -46,8 +46,8 @@
 
   textarea {
     background-color: var(--color-background);
-    border-radius: 0.5rem;
-    border: 1px solid var(--color-foreground-level-3);
+    border-radius: 2rem 0 2rem 2rem;
+    border: 1px solid var(--color-foreground);
     height: 2.5rem;
     padding: 0.5rem 0.75rem;
     width: 100%;
@@ -81,7 +81,7 @@
   textarea:focus,
   textarea:hover {
     background-color: var(--color-foreground-level-1);
-    border: 1px solid var(--color-foreground-level-3);
+    border: 1px solid var(--color-foreground);
     outline: none;
   }
 

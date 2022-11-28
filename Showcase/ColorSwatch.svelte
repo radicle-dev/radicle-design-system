@@ -19,10 +19,10 @@
   .color {
     width: 4rem;
     height: 4rem;
-    border-radius: 0.5rem;
+    border-radius: 2rem 0 2rem 2rem;
   }
   .border {
-    border: 1px solid var(--color-foreground-level-3);
+    border: 1px solid var(--color-foreground);
   }
 </style>
 

@@ -33,7 +33,7 @@
 
   .modal {
     position: absolute;
-    border-radius: 1rem;
+    border-radius: 2rem 0 2rem 2rem;
     background: var(--color-background);
     box-shadow: var(--elevation-high);
     top: -1rem;

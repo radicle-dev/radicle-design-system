@@ -33,7 +33,7 @@
     font-size: 2rem;
     padding: 1rem 0;
     margin: 0 0 1.75rem;
-    border-bottom: 1px solid var(--color-foreground-level-3);
+    border-bottom: 1px solid var(--color-foreground);
   }
 
   .markdown :global(h1:not(:first-child)) {
@@ -51,7 +51,7 @@
     font-size: 1.5rem;
     padding: 0.75rem 0;
     margin: 1.8rem 0 1.65rem;
-    border-bottom: 1px solid var(--color-foreground-level-3);
+    border-bottom: 1px solid var(--color-foreground);
   }
 
   .markdown :global(h2 > code) {
@@ -65,7 +65,7 @@
     font-size: 1.25rem;
     padding: 0.65rem 0;
     margin: 1.75rem 0 1.5rem;
-    border-bottom: 1px solid var(--color-foreground-level-3);
+    border-bottom: 1px solid var(--color-foreground);
   }
 
   .markdown :global(h3 > code) {
@@ -79,7 +79,7 @@
     font-size: 1rem;
     padding: 0.5rem 0;
     margin: 1.5rem 0 1.35rem;
-    border-bottom: 1px solid var(--color-foreground-level-3);
+    border-bottom: 1px solid var(--color-foreground);
   }
 
   .markdown :global(h4 > code) {
@@ -93,7 +93,7 @@
     font-size: 0.875rem;
     padding: 0.35rem 0;
     margin: 1.35rem 0 1.25rem;
-    border-bottom: 1px solid var(--color-foreground-level-3);
+    border-bottom: 1px solid var(--color-foreground);
   }
 
   .markdown :global(h5 > code) {
@@ -107,7 +107,7 @@
     font-size: 0.75rem;
     padding: 0.25rem 0;
     margin: 1.25rem 0 1rem;
-    border-bottom: 1px solid var(--color-foreground-level-3);
+    border-bottom: 1px solid var(--color-foreground);
   }
 
   .markdown :global(h6 > code) {
@@ -140,7 +140,7 @@
     font-size: 1rem;
     background-color: var(--color-foreground-level-1);
     padding: 0.09rem 0.25rem;
-    border-radius: 0.5rem;
+    border-radius: 2rem 0 2rem 2rem;
   }
 
   .markdown :global(pre) {
@@ -148,7 +148,7 @@
     font-size: 1rem;
     background-color: var(--color-foreground-level-1);
     padding: 1rem;
-    border-radius: 0.5rem;
+    border-radius: 2rem 0 2rem 2rem;
     margin: 1rem 0;
     overflow: scroll;
     scrollbar-width: none;
@@ -164,7 +164,7 @@
     overflow: hidden;
     background: transparent;
     border: 0;
-    border-bottom: 1px solid var(--color-foreground-level-3);
+    border-bottom: 1px solid var(--color-foreground);
   }
 
   .markdown :global(ol) {

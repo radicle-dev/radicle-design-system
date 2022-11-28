@@ -39,7 +39,7 @@
   .segmented-control {
     display: flex;
     width: fit-content;
-    border: 1px solid var(--color-foreground-level-3);
+    border: 1px solid var(--color-foreground);
     border-radius: 0.5rem;
     height: 2.5rem;
     background-color: var(--color-background);

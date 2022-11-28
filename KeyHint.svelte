@@ -18,7 +18,7 @@
     background-color: var(--color-foreground-level-2);
     color: var(--color-foreground-level-6);
     padding: 0.125rem 0.375rem;
-    border-radius: 0.5rem;
+    border-radius: 2rem 0 2rem 2rem;
     min-width: 1.75rem;
     text-align: center;
   }

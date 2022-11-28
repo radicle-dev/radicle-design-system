@@ -19,7 +19,7 @@
   .elevation {
     width: 8rem;
     height: 8rem;
-    border-radius: 1rem;
+    border-radius: 2rem 0 2rem 2rem;
   }
 </style>
 

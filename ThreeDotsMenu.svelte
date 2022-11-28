@@ -42,10 +42,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 0.5rem;
+    border-radius: 2rem 0 2rem 2rem;
     cursor: pointer;
     outline-style: none;
-    border: 1px solid var(--color-foreground-level-3);
+    border: 1px solid var(--color-foreground);
   }
 
   button :global(svg) {
@@ -58,8 +58,8 @@
 
   .modal {
     background-color: var(--color-background);
-    border-radius: 0.5rem;
-    border: 1px solid var(--color-foreground-level-3);
+    border-radius: 2rem 0 2rem 2rem;
+    border: 1px solid var(--color-foreground);
     box-shadow: var(--elevation-medium);
     cursor: pointer;
     margin-top: 1rem;

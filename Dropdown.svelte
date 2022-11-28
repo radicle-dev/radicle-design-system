@@ -65,8 +65,8 @@
   .button {
     height: 40px;
     background-color: var(--color-background);
-    border: 1px solid var(--color-foreground-level-3);
-    border-radius: 0.5rem;
+    border: 1px solid var(--color-foreground);
+    border-radius: 2rem 0 2rem 2rem;
     display: flex;
     align-items: center;
     user-select: none;
@@ -95,8 +95,8 @@
     top: 0px;
     left: 0px;
     box-shadow: var(--elevation-medium);
-    border: 1px solid var(--color-foreground-level-3);
-    border-radius: 0.5rem;
+    border: 1px solid var(--color-foreground);
+    border-radius: 1.25rem 0 1.25rem 1.25rem;
     user-select: none;
     background-color: var(--color-background);
     overflow: hidden; /* hack to make inner option corners rounded */

@@ -24,8 +24,8 @@
     appearance: none;
     outline: none;
     cursor: pointer;
-    border: 1px solid var(--color-foreground-level-3);
-    border-radius: 0.5rem;
+    border: 1px solid var(--color-foreground);
+    border-radius: 2rem 0 2rem 2rem;
   }
 
   input:hover,

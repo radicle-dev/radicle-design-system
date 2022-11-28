@@ -73,7 +73,7 @@
     background-color: var(--color-foreground);
     color: var(--color-background);
     text-align: center;
-    border-radius: 0.5rem;
+    border-radius: 2rem 0 2rem 2rem;
     padding: 4px 8px;
     position: fixed;
     pointer-events: none;

@@ -22,7 +22,7 @@
     padding: 0 12px;
     user-select: none;
     position: relative;
-    border-radius: 0.5rem;
+    border-radius: 2rem 0 2rem 2rem;
     border: 1px solid transparent;
     background-clip: padding-box;
     transform-style: preserve-3d;

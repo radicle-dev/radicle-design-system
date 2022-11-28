@@ -31,7 +31,7 @@
   }
   input[type="color"]::-webkit-color-swatch {
     border: none;
-    border-radius: 0.25rem;
+    border-radius: 2rem 0 2rem 2rem;
   }
 </style>
 
