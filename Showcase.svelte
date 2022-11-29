@@ -187,6 +187,7 @@
     "User",
     "Wallet",
     "Withdraw",
+    "Play",
   ];
 
   async function importIconComponents(
