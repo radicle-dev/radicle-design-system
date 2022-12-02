@@ -168,6 +168,7 @@
     "Pause",
     "Pen",
     "Plus",
+    "Question",
     "PlusSmall",
     "Proposals",
     "Registered",
