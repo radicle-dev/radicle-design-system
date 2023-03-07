@@ -78,32 +78,32 @@
 
 h1,
 .typo-header-1 {
-  font-family: var(--typeface-bold);
-  font-weight: bold;
+  font-family: var(--typeface-medium);
+  font-weight: 500;
   font-size: 36px;
   line-height: 44px;
 }
 
 h2,
 .typo-header-2 {
-  font-family: var(--typeface-bold);
-  font-weight: bold;
+  font-family: var(--typeface-medium);
+  font-weight: 500;
   font-size: 24px;
   line-height: 30px;
 }
 
 h3,
 .typo-header-3 {
-  font-family: var(--typeface-bold);
-  font-weight: bold;
+  font-family: var(--typeface-medium);
+  font-weight: 500;
   font-size: 20px;
   line-height: 24px;
 }
 
 h4,
 .typo-header-4 {
-  font-family: var(--typeface-bold);
-  font-weight: bold;
+  font-family: var(--typeface-medium);
+  font-weight: 500;
   font-size: 16px;
   line-height: 22.5px;
 }
@@ -111,7 +111,7 @@ h4,
 h5,
 .typo-header-5 {
   font-family: var(--typeface-medium);
-  font-weight: 600;
+  font-weight: 500;
   font-size: 13px;
   text-transform: uppercase;
   letter-spacing: 0.05rem;
@@ -129,7 +129,7 @@ p,
 
 .typo-text-bold {
   font-family: var(--typeface-medium);
-  font-weight: 600;
+  font-weight: 500;
   font-size: 16px;
 }
 
@@ -152,7 +152,7 @@ p,
 
 .typo-text-small-bold {
   font-family: var(--typeface-medium);
-  font-weight: 600;
+  font-weight: 500;
   font-size: 14px;
   line-height: 18px;
 }
@@ -197,17 +197,17 @@ p,
 
 .typo-regular {
   font-family: var(--typeface-regular);
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .typo-semi-bold {
   font-family: var(--typeface-medium);
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .typo-bold {
-  font-family: var(--typeface-bold);
-  font-weight: bold;
+  font-family: var(--typeface-medium);
+  font-weight: 500;
 }
 
 .typo-mono {
@@ -217,7 +217,7 @@ p,
 
 .typo-mono-bold {
   font-family: var(--typeface-mono-bold);
-  font-weight: bold;
+  font-weight: 500;
 }
 
 .typo-overflow-ellipsis {
@@ -228,7 +228,7 @@ p,
 
 .typo-all-caps {
   font-family: var(--typeface-medium);
-  font-weight: 600;
+  font-weight: 500;
   font-size: 13px;
   text-transform: uppercase;
   letter-spacing: 0.05rem;
