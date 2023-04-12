@@ -33,10 +33,10 @@
 }
 
 [data-theme="dark"] {
-  --color-primary: rgba(85, 85, 255, 1);
-  --color-primary-level-1: rgba(85, 85, 255, 0.17);
-  --color-primary-level-2: rgba(85, 85, 255, 0.37);
-  --color-primary-level-6: rgba(85, 85, 255, 0.87);
+  --color-primary: #5555FF;
+  --color-primary-level-1: #212847;
+  --color-primary-level-2: #2C326D;
+  --color-primary-level-6: #E3E3FF;
   --color-positive: #53db53;
   --color-positive-level-1: #21402f;
   --color-positive-level-2: #2c6837;
@@ -60,10 +60,10 @@
 }
 
 [data-theme="h4x0r"] {
-  --color-primary: rgba(255, 123, 0, 1);
-  --color-primary-level-1: rgba(255, 123, 0, 0.17);
-  --color-primary-level-2: rgba(255, 123, 0, 0.37);
-  --color-primary-level-6: rgba(255, 123, 0, 0.87);
+  --color-primary: #FFA755;
+  --color-primary-level-1: #473728;
+  --color-primary-level-2: #6D4F32;
+  --color-primary-level-6: #FFF4EA;
   --color-positive: #53db53;
   --color-positive-level-1: #224021;
   --color-positive-level-2: #2e682c;
@@ -93,6 +93,13 @@
   --color-primary-level-6: rgba(85, 85, 255, 0.87);
 }
 
+[data-primary-color="blue"][data-theme="dark"] {
+  --color-primary: #5555FF;
+  --color-primary-level-1: #212847;
+  --color-primary-level-2: #2C326D;
+  --color-primary-level-6: #E3E3FF;
+}
+
 [data-primary-color="pink"] {
   --color-primary: rgba(255, 85, 255, 1);
   --color-primary-level-1: rgba(255, 85, 255, 0.17);
@@ -100,9 +107,25 @@
   --color-primary-level-6: rgba(255, 85, 255, 0.87);
 }
 
+
+[data-primary-color="pink"][data-theme="dark"] {
+  --color-primary: #FF55FF;
+  --color-primary-level-1: #431643;
+  --color-primary-level-2: #6D246D;
+  --color-primary-level-6: #FFCEFF;
+}
+
 [data-primary-color="orange"] {
   --color-primary: rgba(255, 123, 0, 1);
   --color-primary-level-1: rgba(255, 123, 0, 0.17);
   --color-primary-level-2: rgba(255, 123, 0, 0.37);
   --color-primary-level-6: rgba(255, 123, 0, 0.87);
+}
+
+
+[data-primary-color="orange"][data-theme="dark"] {
+  --color-primary: #FF7B00;
+  --color-primary-level-1: #422000;
+  --color-primary-level-2: #783A00;
+  --color-primary-level-6: #FFD2A8;
 }
