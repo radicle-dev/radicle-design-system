@@ -1,9 +1,9 @@
 <!--
- Copyright © 2022 The Radicle Design System Contributors
+  Copyright © 2022 The Radicle Design System Contributors
 
- This file is part of radicle-design-system, distributed under the GPLv3
- with Radicle Linking Exception. For full terms see the included
- LICENSE file.
+  This file is part of radicle-design-system, distributed under the GPLv3
+  with Radicle Linking Exception. For full terms see the included
+  LICENSE file.
 -->
 <script lang="ts">
   import IconWrapper from "./IconWrapper.svelte";
@@ -12,17 +12,5 @@
 </script>
 
 <IconWrapper on:click {style}>
-  <path
-    fill-rule="evenodd"
-    clip-rule="evenodd"
-    d="M11 5C11 4.44772 11.4477 4 12 4H18C19.1046 4 20 4.89543 20 6V12C20
-    12.5523 19.5523 13 19 13C18.4477 13 18 12.5523 18 12V6H12C11.4477 6 11
-    5.55228 11 5ZM15.2929 7.29289C15.6834 6.90237 16.3166 6.90237 16.7071
-    7.29289C17.0976 7.68342 17.0976 8.31658 16.7071 8.70711L10.7071
-    14.7071C10.3166 15.0976 9.68342 15.0976 9.29289 14.7071C8.90237 14.3166
-    8.90237 13.6834 9.29289 13.2929L15.2929 7.29289ZM7 10C6.44772 10 6 10.4477 6
-    11V17C6 17.5523 6.44772 18 7 18H13C13.5523 18 14 17.5523 14 17V16C14 15.4477
-    14.4477 15 15 15C15.5523 15 16 15.4477 16 16V17C16 18.6569 14.6569 20 13
-    20H7C5.34315 20 4 18.6569 4 17V11C4 9.34315 5.34315 8 7 8H8C8.55228 8 9
-    8.44772 9 9C9 9.55228 8.55228 10 8 10H7Z" />
+<path fill-rule="evenodd" clip-rule="evenodd" d="M12 5.5C11.7239 5.5 11.5 5.27614 11.5 5C11.5 4.72386 11.7239 4.5 12 4.5H19C19.2761 4.5 19.5 4.72386 19.5 5V12C19.5 12.2761 19.2761 12.5 19 12.5C18.7239 12.5 18.5 12.2761 18.5 12V6.20711L10.3536 14.3536C10.1583 14.5488 9.84171 14.5488 9.64645 14.3536C9.45118 14.1583 9.45118 13.8417 9.64645 13.6464L13.7929 9.5H6C5.72386 9.5 5.5 9.72386 5.5 10V18C5.5 18.2761 5.72386 18.5 6 18.5H14C14.2761 18.5 14.5 18.2761 14.5 18V12C14.5 11.7239 14.7239 11.5 15 11.5C15.2761 11.5 15.5 11.7239 15.5 12V18C15.5 18.8284 14.8284 19.5 14 19.5H6C5.17157 19.5 4.5 18.8284 4.5 18V10C4.5 9.17157 5.17157 8.5 6 8.5H14.7929L17.7929 5.5H12Z" fill="var(--color-foreground)"/>
 </IconWrapper>

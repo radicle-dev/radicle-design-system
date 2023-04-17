@@ -1,9 +1,9 @@
 <!--
- Copyright © 2022 The Radicle Design System Contributors
+  Copyright © 2022 The Radicle Design System Contributors
 
- This file is part of radicle-design-system, distributed under the GPLv3
- with Radicle Linking Exception. For full terms see the included
- LICENSE file.
+  This file is part of radicle-design-system, distributed under the GPLv3
+  with Radicle Linking Exception. For full terms see the included
+  LICENSE file.
 -->
 <script lang="ts">
   import IconWrapper from "./IconWrapper.svelte";
@@ -12,18 +12,6 @@
 </script>
 
 <IconWrapper on:click {style}>
-  <path
-    d="M5 8C5 7.44772 5.44772 7 6 7H18C18.5523 7 19 7.44772 19 8V16C19 16.5523
-    19.4477 17 20 17C20.5523 17 21 16.5523 21 16V8C21 6.34315 19.6569 5 18
-    5H6C4.34315 5 3 6.34315 3 8V15C3 16.6569 4.34315 18 6 18H13.5147C14.8408 18
-    16.1126 18.5268 17.0503 19.4645L18.2929 20.7071C18.6834 21.0976 19.3166
-    21.0976 19.7071 20.7071C20.0976 20.3166 20.0976 19.6834 19.7071
-    19.2929L18.4645 18.0503C17.1517 16.7375 15.3712 16 13.5147 16H6C5.44772 16 5
-    15.5523 5 15V8Z" />
-  <path
-    d="M8 9C7.44772 9 7 9.44772 7 10C7 10.5523 7.44772 11 8 11H16C16.5523 11 17
-    10.5523 17 10C17 9.44772 16.5523 9 16 9H8Z" />
-  <path
-    d="M8 12C7.44772 12 7 12.4477 7 13C7 13.5523 7.44772 14 8 14H13C13.5523 14
-    14 13.5523 14 13C14 12.4477 13.5523 12 13 12H8Z" />
+<path fill-rule="evenodd" clip-rule="evenodd" d="M5 6.5C4.72386 6.5 4.5 6.72386 4.5 7V16C4.5 16.2761 4.72386 16.5 5 16.5H14.5147C16.2386 16.5 17.8919 17.1848 19.1109 18.4038L19.5 18.7929V7C19.5 6.72386 19.2761 6.5 19 6.5H5ZM3.5 7C3.5 6.17157 4.17157 5.5 5 5.5H19C19.8284 5.5 20.5 6.17157 20.5 7V20C20.5 20.2022 20.3782 20.3845 20.1913 20.4619C20.0045 20.5393 19.7894 20.4966 19.6464 20.3536L18.4038 19.1109C17.3724 18.0795 15.9734 17.5 14.5147 17.5H5C4.17157 17.5 3.5 16.8284 3.5 16V7Z" fill="var(--color-foreground)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 10C7.5 9.72386 7.72386 9.5 8 9.5H16C16.2761 9.5 16.5 9.72386 16.5 10C16.5 10.2761 16.2761 10.5 16 10.5H8C7.72386 10.5 7.5 10.2761 7.5 10ZM7.5 13C7.5 12.7239 7.72386 12.5 8 12.5H13C13.2761 12.5 13.5 12.7239 13.5 13C13.5 13.2761 13.2761 13.5 13 13.5H8C7.72386 13.5 7.5 13.2761 7.5 13Z" fill="var(--color-foreground)"/>
 </IconWrapper>

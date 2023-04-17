@@ -1,9 +1,9 @@
 <!--
- Copyright © 2022 The Radicle Design System Contributors
+  Copyright © 2022 The Radicle Design System Contributors
 
- This file is part of radicle-design-system, distributed under the GPLv3
- with Radicle Linking Exception. For full terms see the included
- LICENSE file.
+  This file is part of radicle-design-system, distributed under the GPLv3
+  with Radicle Linking Exception. For full terms see the included
+  LICENSE file.
 -->
 <script lang="ts">
   import IconWrapper from "./IconWrapper.svelte";
@@ -12,12 +12,5 @@
 </script>
 
 <IconWrapper on:click {style}>
-  <path
-    fill-rule="evenodd"
-    clip-rule="evenodd"
-    d="M7.29289 10.2971C7.68342 9.90658 8.31658 9.90658 8.70711 10.2971L12
-    13.59L15.2929 10.2971C15.6834 9.90658 16.3166 9.90658 16.7071
-    10.2971C17.0976 10.6876 17.0976 11.3208 16.7071 11.7113L13.4142
-    15.0042C12.6332 15.7853 11.3668 15.7853 10.5858 15.0042L7.29289
-    11.7113C6.90237 11.3208 6.90237 10.6876 7.29289 10.2971Z" />
+<path fill-rule="evenodd" clip-rule="evenodd" d="M16.3536 9.64645C16.5488 9.84171 16.5488 10.1583 16.3536 10.3536L13.0607 13.6464C12.4749 14.2322 11.5251 14.2322 10.9393 13.6464L7.64645 10.3536C7.45118 10.1583 7.45118 9.84171 7.64645 9.64645C7.84171 9.45118 8.15829 9.45118 8.35355 9.64645L11.6464 12.9393C11.8417 13.1346 12.1583 13.1346 12.3536 12.9393L15.6464 9.64645C15.8417 9.45118 16.1583 9.45118 16.3536 9.64645Z" fill="var(--color-foreground)"/>
 </IconWrapper>

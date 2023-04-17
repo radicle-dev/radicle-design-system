@@ -1,9 +1,9 @@
 <!--
- Copyright © 2022 The Radicle Design System Contributors
+  Copyright © 2022 The Radicle Design System Contributors
 
- This file is part of radicle-design-system, distributed under the GPLv3
- with Radicle Linking Exception. For full terms see the included
- LICENSE file.
+  This file is part of radicle-design-system, distributed under the GPLv3
+  with Radicle Linking Exception. For full terms see the included
+  LICENSE file.
 -->
 <script lang="ts">
   import IconWrapper from "./IconWrapper.svelte";
@@ -12,14 +12,6 @@
 </script>
 
 <IconWrapper on:click {style}>
-  <path
-    d="M10.3962 6.83738C10.2636 5.86548 11.0191 5 12 5C12.9809 5 13.7364 5.86548
-    13.6038 6.83738L12.5092 14.8649C12.4346 15.4121 12.8177 15.9162 13.3649
-    15.9908C13.9121 16.0655 14.4162 15.6823 14.4908 15.1351L15.5855
-    7.1076C15.8818 4.93485 14.1929 3 12 3C9.80714 3 8.11823 4.93485 8.41451
-    7.1076L9.50917 15.1351C9.5838 15.6823 10.0879 16.0655 10.6351
-    15.9908C11.1823 15.9162 11.5655 15.4121 11.4908 14.8649L10.3962 6.83738Z" />
-  <path
-    d="M12 21.5C13.1046 21.5 14 20.6046 14 19.5C14 18.3954 13.1046 17.5 12
-    17.5C10.8954 17.5 10 18.3954 10 19.5C10 20.6046 10.8954 21.5 12 21.5Z" />
+<path fill-rule="evenodd" clip-rule="evenodd" d="M12 4.5C11.2487 4.5 10.6716 5.16543 10.7778 5.90919L12 14.4645L13.2222 5.90919C13.3284 5.16543 12.7513 4.5 12 4.5ZM9.78786 6.05061C9.59555 4.70442 10.6401 3.5 12 3.5C13.3599 3.5 14.4044 4.70442 14.2121 6.05061L12.9899 14.6059C12.8264 15.7506 11.1736 15.7507 11.01 14.6059L9.78786 6.05061Z" fill="var(--color-foreground)"/>
+<path d="M13.5 19C13.5 19.8284 12.8284 20.5 12 20.5C11.1716 20.5 10.5 19.8284 10.5 19C10.5 18.1716 11.1716 17.5 12 17.5C12.8284 17.5 13.5 18.1716 13.5 19Z" fill="var(--color-foreground)"/>
 </IconWrapper>

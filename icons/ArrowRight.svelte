@@ -1,9 +1,9 @@
 <!--
- Copyright © 2022 The Radicle Design System Contributors
+  Copyright © 2022 The Radicle Design System Contributors
 
- This file is part of radicle-design-system, distributed under the GPLv3
- with Radicle Linking Exception. For full terms see the included
- LICENSE file.
+  This file is part of radicle-design-system, distributed under the GPLv3
+  with Radicle Linking Exception. For full terms see the included
+  LICENSE file.
 -->
 <script lang="ts">
   import IconWrapper from "./IconWrapper.svelte";
@@ -12,14 +12,6 @@
 </script>
 
 <IconWrapper on:click {style}>
-  <path
-    fill-rule="evenodd"
-    clip-rule="evenodd"
-    d="M19.7071 11.2929C20.0976 11.6834 20.0976 12.3166 19.7071 12.7071L14.7071
-    17.7071C14.3166 18.0976 13.6834 18.0976 13.2929 17.7071C12.9024 17.3166
-    12.9024 16.6834 13.2929 16.2929L17.5858 12L13.2929 7.70711C12.9024 7.31658
-    12.9024 6.68342 13.2929 6.29289C13.6834 5.90237 14.3166 5.90237 14.7071
-    6.29289L19.7071 11.2929ZM14 13L5 13C4.44771 13 4 12.5523 4 12C4 11.4477
-    4.44771 11 5 11L14 11C14.5523 11 15 11.4477 15 12C15 12.5523 14.5523 13 14
-    13Z" />
+<path fill-rule="evenodd" clip-rule="evenodd" d="M19.462 11.8084C19.4849 11.8636 19.4982 11.9239 19.4998 11.987C19.4983 11.9262 19.4856 11.8655 19.462 11.8084ZM19.3527 11.6456C19.3552 11.6481 19.3576 11.6505 19.36 11.653L19.3536 11.6464L19.3527 11.6456Z" fill="var(--color-foreground)"/>
+<path d="M14.3536 17.3536L19.3536 12.3536C19.4015 12.3056 19.4377 12.2504 19.4621 12.1914C19.4857 12.1342 19.4983 12.0736 19.4998 12.0127L19.5 12C19.5 11.9957 19.4999 11.9913 19.4998 11.987C19.4983 11.9262 19.4856 11.8655 19.462 11.8084C19.4378 11.7503 19.403 11.6977 19.36 11.653L19.3536 11.6464L19.3527 11.6456L14.3536 6.64645C14.1583 6.45118 13.8417 6.45118 13.6464 6.64645C13.4512 6.84171 13.4512 7.15829 13.6464 7.35355L17.7929 11.5L5 11.5C4.72386 11.5 4.5 11.7239 4.5 12C4.5 12.2761 4.72386 12.5 5 12.5L17.7929 12.5L13.6464 16.6464C13.4512 16.8417 13.4512 17.1583 13.6464 17.3536C13.8417 17.5488 14.1583 17.5488 14.3536 17.3536Z" fill="var(--color-foreground)"/>
 </IconWrapper>

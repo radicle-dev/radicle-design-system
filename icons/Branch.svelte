@@ -1,9 +1,9 @@
 <!--
- Copyright © 2022 The Radicle Design System Contributors
+  Copyright © 2022 The Radicle Design System Contributors
 
- This file is part of radicle-design-system, distributed under the GPLv3
- with Radicle Linking Exception. For full terms see the included
- LICENSE file.
+  This file is part of radicle-design-system, distributed under the GPLv3
+  with Radicle Linking Exception. For full terms see the included
+  LICENSE file.
 -->
 <script lang="ts">
   import IconWrapper from "./IconWrapper.svelte";
@@ -12,25 +12,9 @@
 </script>
 
 <IconWrapper on:click {style}>
-  <path
-    d="M8 4C8 3.44772 7.55228 3 7 3C6.44772 3 6 3.44772 6 4V9C6 9.55228 6.44772
-    10 7 10C7.55228 10 8 9.55228 8 9L8 4Z" />
-  <path
-    fill-rule="evenodd"
-    clip-rule="evenodd"
-    d="M17 7C17.5523 7 18 7.44772 18 8V11C18 13.2091 16.2091 15 14
-    15H9.82929C9.41746 16.1652 8.30622 17 7 17C5.34315 17 4 15.6569 4 14C4
-    12.3431 5.34315 11 7 11C8.30622 11 9.41746 11.8348 9.82929 13H14C15.1046 13
-    16 12.1046 16 11V8C16 7.44772 16.4477 7 17 7ZM7 13C7.55228 13 8 13.4477 8
-    14C8 14.5523 7.55228 15 7 15C6.44772 15 6 14.5523 6 14C6 13.4477 6.44772 13
-    7 13Z" />
-  <path
-    d="M7 18C7.55228 18 8 18.4477 8 19V20C8 20.5523 7.55228 21 7 21C6.44772 21 6
-    20.5523 6 20L6 19C6 18.4477 6.44772 18 7 18Z" />
-  <path
-    d="M19.2929 7.70711C19.6834 8.09763 20.3166 8.09763 20.7071 7.70711C21.0976
-    7.31658 21.0976 6.68342 20.7071 6.29289L17.7071 3.29289C17.3166 2.90237
-    16.6834 2.90237 16.2929 3.29289L13.2929 6.29289C12.9024 6.68342 12.9024
-    7.31658 13.2929 7.70711C13.6834 8.09763 14.3166 8.09763 14.7071 7.70711L17
-    5.41421L19.2929 7.70711Z" />
+<path fill-rule="evenodd" clip-rule="evenodd" d="M17 3.5C17.2761 3.5 17.5 3.72386 17.5 4V13C17.5 13.8284 16.8284 14.5 16 14.5H9C8.72386 14.5 8.5 14.2761 8.5 14C8.5 13.7239 8.72386 13.5 9 13.5H16C16.2761 13.5 16.5 13.2761 16.5 13V4C16.5 3.72386 16.7239 3.5 17 3.5Z" fill="var(--color-foreground)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M7 12.5C6.17157 12.5 5.5 13.1716 5.5 14C5.5 14.8284 6.17157 15.5 7 15.5C7.82843 15.5 8.5 14.8284 8.5 14C8.5 13.1716 7.82843 12.5 7 12.5ZM4.5 14C4.5 12.6193 5.61929 11.5 7 11.5C8.38071 11.5 9.5 12.6193 9.5 14C9.5 15.3807 8.38071 16.5 7 16.5C5.61929 16.5 4.5 15.3807 4.5 14Z" fill="var(--color-foreground)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M7 3.5C7.27614 3.5 7.5 3.72386 7.5 4L7.5 12C7.5 12.2761 7.27614 12.5 7 12.5C6.72386 12.5 6.5 12.2761 6.5 12L6.5 4C6.5 3.72386 6.72386 3.5 7 3.5Z" fill="var(--color-foreground)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M7 15.5C7.27614 15.5 7.5 15.7239 7.5 16L7.5 20C7.5 20.2761 7.27614 20.5 7 20.5C6.72386 20.5 6.5 20.2761 6.5 20L6.5 16C6.5 15.7239 6.72386 15.5 7 15.5Z" fill="var(--color-foreground)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M20.3536 7.35355C20.1583 7.54882 19.8417 7.54882 19.6464 7.35355L17 4.70711L14.3536 7.35355C14.1583 7.54882 13.8417 7.54882 13.6464 7.35355C13.4512 7.15829 13.4512 6.84171 13.6464 6.64645L16.6464 3.64645C16.8417 3.45118 17.1583 3.45118 17.3536 3.64645L20.3536 6.64645C20.5488 6.84171 20.5488 7.15829 20.3536 7.35355Z" fill="var(--color-foreground)"/>
 </IconWrapper>

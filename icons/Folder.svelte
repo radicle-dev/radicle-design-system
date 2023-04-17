@@ -1,9 +1,9 @@
 <!--
- Copyright © 2022 The Radicle Design System Contributors
+  Copyright © 2022 The Radicle Design System Contributors
 
- This file is part of radicle-design-system, distributed under the GPLv3
- with Radicle Linking Exception. For full terms see the included
- LICENSE file.
+  This file is part of radicle-design-system, distributed under the GPLv3
+  with Radicle Linking Exception. For full terms see the included
+  LICENSE file.
 -->
 <script lang="ts">
   import IconWrapper from "./IconWrapper.svelte";
@@ -12,15 +12,6 @@
 </script>
 
 <IconWrapper on:click {style}>
-  <path
-    fill-rule="evenodd"
-    clip-rule="evenodd"
-    d="M5.9 4C4.29837 4 3 5.29837 3 6.9V16.1C3 17.7016 4.29837 19 5.9
-    19H18.1C19.7016 19 21 17.7016 21 16.1V10.9C21 9.61255 20.161 8.52104 19
-    8.14237V8C19 6.34315 17.6569 5 16 5H14C13.4477 5 13 5.44772 13 6C13 6.55228
-    13.4477 7 14 7H16C16.5523 7 17 7.44772 17 8H12.7808L12.3299 6.19665C12.0072
-    4.90566 10.8472 4 9.51652 4H5.9ZM5 6.9C5 6.40294 5.40294 6 5.9
-    6H9.51652C9.92951 6 10.2895 6.28107 10.3897 6.68172L10.8405 8.48507C11.0631
-    9.37541 11.863 10 12.7808 10H18.1C18.5971 10 19 10.4029 19 10.9V16.1C19
-    16.5971 18.5971 17 18.1 17H5.9C5.40294 17 5 16.5971 5 16.1V6.9Z" />
+<path fill-rule="evenodd" clip-rule="evenodd" d="M5 5.5C4.72386 5.5 4.5 5.72386 4.5 6V17C4.5 17.2761 4.72386 17.5 5 17.5H19C19.2761 17.5 19.5 17.2761 19.5 17V10C19.5 9.72386 19.2761 9.5 19 9.5H12.7808C12.0925 9.5 11.4925 9.03155 11.3256 8.3638L10.7043 5.87873C10.6486 5.65615 10.4487 5.5 10.2192 5.5H5ZM3.5 6C3.5 5.17157 4.17157 4.5 5 4.5H10.2192C10.9075 4.5 11.5075 4.96845 11.6744 5.6362L12.2957 8.12127C12.3514 8.34385 12.5513 8.5 12.7808 8.5H19C19.8284 8.5 20.5 9.17157 20.5 10V17C20.5 17.8284 19.8284 18.5 19 18.5H5C4.17157 18.5 3.5 17.8284 3.5 17V6Z" fill="var(--color-foreground)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M11 6C11 5.72386 11.2239 5.5 11.5 5.5H17C17.8284 5.5 18.5 6.17157 18.5 7V9H17.5V7C17.5 6.72386 17.2761 6.5 17 6.5H11.5C11.2239 6.5 11 6.27614 11 6Z" fill="var(--color-foreground)"/>
 </IconWrapper>

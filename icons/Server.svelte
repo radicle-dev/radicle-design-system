@@ -1,9 +1,9 @@
 <!--
- Copyright © 2022 The Radicle Design System Contributors
+  Copyright © 2022 The Radicle Design System Contributors
 
- This file is part of radicle-design-system, distributed under the GPLv3
- with Radicle Linking Exception. For full terms see the included
- LICENSE file.
+  This file is part of radicle-design-system, distributed under the GPLv3
+  with Radicle Linking Exception. For full terms see the included
+  LICENSE file.
 -->
 <script lang="ts">
   import IconWrapper from "./IconWrapper.svelte";
@@ -12,22 +12,8 @@
 </script>
 
 <IconWrapper on:click {style}>
-  <path
-    d="M6 3C4.34315 3 3 4.34315 3 6V10C3 10.7684 3.28885 11.4692 3.7639
-    12C3.28885 12.5308 3 13.2316 3 14V18C3 19.6569 4.34315 21 6 21H17C17.5523 21
-    18 20.5523 18 20C18 19.4477 17.5523 19 17 19H6C5.44772 19 5 18.5523 5
-    18V14C5 13.4477 5.44772 13 6 13H18C18.5523 13 19 13.4477 19 14V18C19 18.5523
-    19.4477 19 20 19C20.5523 19 21 18.5523 21 18V14C21 12.3431 19.6569 11 18
-    11H6C5.44772 11 5 10.5523 5 10V6C5 5.44772 5.44772 5 6 5H18C18.5523 5 19
-    5.44772 19 6V9C19 9.55228 19.4477 10 20 10C20.5523 10 21 9.55228 21 9V6C21
-    4.34315 19.6569 3 18 3H6Z" />
-  <path
-    d="M7 8C7 7.44772 7.44772 7 8 7H10C10.5523 7 11 7.44772 11 8C11 8.55228
-    10.5523 9 10 9H8C7.44772 9 7 8.55228 7 8Z" />
-  <path
-    d="M7 16C7 15.4477 7.44772 15 8 15H13C13.5523 15 14 15.4477 14 16C14 16.5523
-    13.5523 17 13 17H8C7.44772 17 7 16.5523 7 16Z" />
-  <path
-    d="M13 9C13.5523 9 14 8.55228 14 8C14 7.44772 13.5523 7 13 7C12.4477 7 12
-    7.44772 12 8C12 8.55228 12.4477 9 13 9Z" />
+<path fill-rule="evenodd" clip-rule="evenodd" d="M3.5 6C3.5 4.61929 4.61929 3.5 6 3.5H18C19.3807 3.5 20.5 4.61929 20.5 6V10C20.5 11.3807 19.3807 12.5 18 12.5H6C4.61929 12.5 3.5 11.3807 3.5 10V6ZM6 4.5C5.17157 4.5 4.5 5.17157 4.5 6V10C4.5 10.8284 5.17157 11.5 6 11.5H18C18.8284 11.5 19.5 10.8284 19.5 10V6C19.5 5.17157 18.8284 4.5 18 4.5H6Z" fill="var(--color-foreground)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M3.5 14C3.5 12.6193 4.61929 11.5 6 11.5H18C19.3807 11.5 20.5 12.6193 20.5 14V18C20.5 19.3807 19.3807 20.5 18 20.5H6C4.61929 20.5 3.5 19.3807 3.5 18V14ZM6 12.5C5.17157 12.5 4.5 13.1716 4.5 14V18C4.5 18.8284 5.17157 19.5 6 19.5H18C18.8284 19.5 19.5 18.8284 19.5 18V14C19.5 13.1716 18.8284 12.5 18 12.5H6Z" fill="var(--color-foreground)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 8C7.5 7.72386 7.72386 7.5 8 7.5H10C10.2761 7.5 10.5 7.72386 10.5 8C10.5 8.27614 10.2761 8.5 10 8.5H8C7.72386 8.5 7.5 8.27614 7.5 8ZM7.5 16C7.5 15.7239 7.72386 15.5 8 15.5H13C13.2761 15.5 13.5 15.7239 13.5 16C13.5 16.2761 13.2761 16.5 13 16.5H8C7.72386 16.5 7.5 16.2761 7.5 16Z" fill="var(--color-foreground)"/>
+<path d="M14 8C14 8.55228 13.5523 9 13 9C12.4477 9 12 8.55228 12 8C12 7.44772 12.4477 7 13 7C13.5523 7 14 7.44772 14 8Z" fill="var(--color-foreground)"/>
 </IconWrapper>

@@ -1,9 +1,9 @@
 <!--
- Copyright © 2022 The Radicle Design System Contributors
+  Copyright © 2022 The Radicle Design System Contributors
 
- This file is part of radicle-design-system, distributed under the GPLv3
- with Radicle Linking Exception. For full terms see the included
- LICENSE file.
+  This file is part of radicle-design-system, distributed under the GPLv3
+  with Radicle Linking Exception. For full terms see the included
+  LICENSE file.
 -->
 <script lang="ts">
   import IconWrapper from "./IconWrapper.svelte";
@@ -12,22 +12,7 @@
 </script>
 
 <IconWrapper on:click {style}>
-  <path
-    d="M12 8C11.1267 8 10.4859 8.82068 10.6977 9.66789L11.4701 12.7575C11.6041
-    13.2933 11.2783 13.8362 10.7425 13.9701C10.2067 14.1041 9.66381 13.7783
-    9.52986 13.2425L8.75746 10.153C8.23009 8.04346 9.82558 6 12 6C14.1744 6
-    15.7699 8.04346 15.2425 10.153L14.4701 13.2425C14.3362 13.7783 13.7933
-    14.1041 13.2575 13.9701C12.7217 13.8362 12.3959 13.2933 12.5299
-    12.7575L13.3022 9.66789C13.5141 8.82068 12.8733 8 12 8Z" />
-  <path
-    d="M13.75 16.25C13.75 17.2165 12.9665 18 12 18C11.0335 18 10.25 17.2165
-    10.25 16.25C10.25 15.2835 11.0335 14.5 12 14.5C12.9665 14.5 13.75 15.2835
-    13.75 16.25Z" />
-  <path
-    fill-rule="evenodd"
-    clip-rule="evenodd"
-    d="M12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22
-    17.5228 22 12C22 6.47715 17.5228 2 12 2ZM4 12C4 7.58172 7.58172 4 12
-    4C16.4183 4 20 7.58172 20 12C20 16.4183 16.4183 20 12 20C7.58172 20 4
-    16.4183 4 12Z" />
+<path fill-rule="evenodd" clip-rule="evenodd" d="M12 3.5C7.30558 3.5 3.5 7.30558 3.5 12C3.5 16.6944 7.30558 20.5 12 20.5C16.6944 20.5 20.5 16.6944 20.5 12C20.5 7.30558 16.6944 3.5 12 3.5ZM2.5 12C2.5 6.75329 6.75329 2.5 12 2.5C17.2467 2.5 21.5 6.75329 21.5 12C21.5 17.2467 17.2467 21.5 12 21.5C6.75329 21.5 2.5 17.2467 2.5 12Z" fill="var(--color-foreground)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M12 6C11.2487 6 10.6716 6.66543 10.7778 7.40919L12 13.9645L13.2222 7.40919C13.3284 6.66543 12.7513 6 12 6ZM9.78786 7.55061C9.59555 6.20442 10.6401 5 12 5C13.3599 5 14.4044 6.20442 14.2121 7.55061L12.9899 14.1059C12.8264 15.2506 11.1736 15.2507 11.01 14.1059L9.78786 7.55061Z" fill="var(--color-foreground)"/>
+<path d="M13.5 17.5C13.5 18.3284 12.8284 19 12 19C11.1716 19 10.5 18.3284 10.5 17.5C10.5 16.6716 11.1716 16 12 16C12.8284 16 13.5 16.6716 13.5 17.5Z" fill="var(--color-foreground)"/>
 </IconWrapper>
