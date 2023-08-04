@@ -66,9 +66,9 @@
 }
 
 [data-uifont="inter"] {
-  --typeface-bold: "Inter Bold";
-  --typeface-medium: "Inter SemiBold";
-  --typeface-regular: "Inter Regular";
+  --typeface-bold: "Inter Bold, Helvetica, sans-serif";
+  --typeface-medium: "Inter SemiBold, Helvetica, sans-serif";
+  --typeface-regular: "Inter Regular, Helvetica, sans-serif";
 }
 
 [data-codefont="sourceCode"] {
