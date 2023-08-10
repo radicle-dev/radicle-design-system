@@ -146,6 +146,7 @@ p,
 }
 
 .typo-text-small {
+  font-family: var(--typeface-regular);
   font-size: 14px;
   line-height: 18px;
 }
