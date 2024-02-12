@@ -195,6 +195,7 @@
     "Gitlab",
     "Git",
     "Hamburger",
+    "Etherscan",
   ];
 
   async function importIconComponents(
